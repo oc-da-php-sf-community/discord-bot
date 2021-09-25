@@ -1,0 +1,10 @@
+enum OP_CODES {
+  DISPATCH = 0,
+  HEARTBEAT = 1,
+  IDENTIFY = 2,
+  RECONNECT = 7,
+  HELLO = 10,
+  HEARTBEAT_ACK = 11,
+}
+
+export { OP_CODES };
