@@ -9,7 +9,6 @@ class HelloHandler extends AbstractHandler implements OpCodeHandlerInterface {
       throw new Error("Error while dispatching OP CODE to handler");
     }
 
-    data.op;
     this._application.identify();
     setTimeout(
       () => {
